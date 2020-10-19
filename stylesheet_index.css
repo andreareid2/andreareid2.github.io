@@ -24,7 +24,8 @@ h2 {text-align: center;
 
 p {text-align: center;
 	color: #666;
-	margin: 30px 100px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*Source for navigation bar using list adapted from https://www.w3schools.com/css/css_navbar.asp and  https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu*/
@@ -65,4 +66,6 @@ img.circle {border-radius: 50%;
 	max-width:25%;
 	margin-top:0px;
 	margin-bottom:30px;
+	margin-left: auto;
+	margin-right: auto;
 }
