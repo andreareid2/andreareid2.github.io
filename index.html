@@ -1,74 +1,110 @@
 <!DOCTYPE html>
+
 <html>
-<title>W3.CSS</title>
+
+<head>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+
+body {font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {text-align: left;
+	background-color: #666;
+	opacity: 0.75;
+	padding: 30px;
+	font-size: 2.5em;
+	color: white;
+	margin: 0;
+}
+
+h2 {text-align: center;
+	color: #666;
+	font-size: 2em;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+/* Source of inspiration for margin width http://www.pascalvangemert.nl/#/profile */
+
+p {text-align: center;
+	color: #666;
+	margin: 30px 125px;
+}
+
+/*Source for navigation bar using list adapted from https://www.w3schools.com/css/css_navbar.asp and  https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu*/
+
+ul {list-style-type: none;
+	margin: 0;
+	padding: 40;
+	overflow: hidden;
+	background-color: #333333;
+	opacity: 0.75;
+}
+
+li {float: left;
+}
+
+li a {display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover {background-color: #111111;
+}
+
+
+/*source: responsive image adapted from https://www.w3schools.com/css/css3_images.asp*/
+
+img {display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+/*source: circle image from https://www.w3schools.com/howto/howto_css_rounded_images.asp*/
+
+img.circle {border-radius: 50%;
+	max-width:25%;
+	margin-top:0px;
+	margin-bottom:30px;
+}
+
+</style>
+
+</head>
+
 <body>
 
-<div class="w3-container w3-teal">
-<h1>Summer Holiday, YAY</h1>
-</div>
+<h1>Andrea L. Reid, MSc</h1>
 
-<div class="w3-row-padding w3-margin-top">
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About me</a></li>
+  <li><a href="experience.html">Experience</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+</ul>
 
-<div class="w3-third">
-<div class="w3-card">
-<img src="img_5terre.jpg" style="width:100%">
-<div class="w3-container">
-<h4>5 Terre</h4>
-</div>
-</div>
-</div>
+<img src="images/Calanda_Silene.jpg" alt="Mountain flowers"></img>
 
-<div class="w3-third">
-<div class="w3-card">
-<img src="img_monterosso.jpg" style="width:100%">
-<div class="w3-container">
-<h4>Monterosso</h4>
-</div>
-</div>
-</div>
+<h2 id="about">About me</h2>
 
-<div class="w3-third">
-<div class="w3-card">
-<img src="img_vernazza.jpg" style="width:100%">
-<div class="w3-container">
-<h4>Vernazza</h4>
-</div>
-</div>
-</div>
+<img src="images/CHN_Lab_Photo_Slate.jpg" alt="Profile photo" class="circle" ></img>
 
-</div>
-<div class="w3-row-padding w3-margin-top">
+<p>
+I am an ecologist with experience in biodiversity research and conservation genetics. Throughout my career, I have had the opportunity to work in many different environments across three different continents. 
+</p>
+<p>
+I have worked 'on the ground' in Canada, Ecuador, Switzerland, and Spain, collecting the data necessary for understanding patterns and processes in the natural world. I have worked on experimental fields in the Alps, managing common garden experiments to asses the evolutionary response of an invasive plant species. And I have worked in the lab, designing and implementing methods to help answer ecological questions using molecular tools. 
+</p>
+<p>
+Now, equipped with a new skillset aquired from the GIS Applications Specialist program at Fleming College, I hope to be able to use spatial data to help monitor and conserve our natural world.
+</p>
 
-<div class="w3-third">
-<div class="w3-card">
-<img src="img_manarola.jpg" style="width:100%">
-<div class="w3-container">
-<h4>Manarola</h4>
-</div>
-</div>
-</div>
-
-<div class="w3-third">
-<div class="w3-card">
-<img src="img_corniglia.jpg" style="width:100%">
-<div class="w3-container">
-<h4>Corniglia</h4>
-</div>
-</div>
-</div>
-
-<div class="w3-third">
-<div class="w3-card">
-<img src="img_riomaggiore.jpg" style="width:100%">
-<div class="w3-container">
-<h4>Riomaggiore</h4>
-</div>
-</div>
-</div>
-
-</div>
 
 </body>
 </html>
