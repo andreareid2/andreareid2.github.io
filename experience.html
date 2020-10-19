@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Source: inspiration for layout and style features from http://www.pascalvangemert.nl/#/experiences -->
+
+<style>
+
+/* Source of box layout from https://www.w3schools.com/html/html_layout.asp*/
+
+/* Source of @media rule https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
+
+@media only screen and (min-width: 1100px) {
+* {box-sizing: border-box;
+}
+
+img	{display: block;
+	float: left;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 255px;
+	height: 276px;
+}
+
+aside {float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	width: 30%;
+}
+
+article {float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	width: 70%;
+}
+
+section {margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+}
+
+section:after {content: "";
+  display: table;
+  clear: both;
+}
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+img {display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 255px;
+	height: 276px;
+}
+
+aside {
+	padding-top: 0px;
+	text-align: center;
+}
+
+article {
+	padding-top: 0px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+section {margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+}
+
+section:after {content: "";
+  display: table;
+  clear: both;
+}
+
+}
+
+a.links {text-decoration: none;
+	color: rgba(255, 99, 100, 0.5);
+}
+
+body {font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	background-color:none;
+}
+
+.header {background-color: #111111;
+	opacity: 0.5;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+}`
+
+</style>
+
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+	<h1>Experience</header>
+</div>
+
+
+<!-- Section layout adapted from https://www.w3schools.com/html/html_layout.asp* -->
+<section>
+ 
+  <aside>
+  <img src="images/CHN_Lab_Photo_Slate.jpg" alt="Profile photo"></img>
+  </aside>
+
+  <article>
+
+	<h1>Master of Science, ETH Zurich</h1>
+	<p>Sep 2009 - Aug 2012</p>
+	<p>Thesis: Conservation Genetics of a Rare Plant Species in the Canary Islands.</p>
+  </article>
+  
+  <article>
+	<h1>Bachelor of Science, University of Guelph</h1>
+	<p>Sep 2002 - Apr 2007</p>
+	<p>Major in Marine and Freshwater Biology</p>
+  </article>
+  
+</section>
+
+<section>
+
+  <aside>
+	<h1>ETH Zurich</h1>
+	<p> Sep 2012 - Aug 2018</p>	
+  </aside>
+  
+  <article> 
+    <h1>Lab Manager</h1>
+    <p>Development and implementation of genotyping methodologies for understanding the eco-evolutionary trends of different plant study systems. Highlighted projects include: spread of an invasive plant species in the Swiss Alps, species competition and evolution in experimental duckweed communities, and spread of an invasive species to islands in Greece. </p>
+    <a href = "https://plantecology.ethz.ch/" class="links">ETH Zurich</a>	
+  </article>
+	
+</section>
+
+<section>
+
+  <aside>
+    <h1>World Wildlife Fund (WWF)</h1>
+	<p> Sep 2011 - Jun 2012</p>	
+  </aside>
+  
+  <article> 
+    <h1>Communications Intern</h1>
+    <p>Produced communications material on the status of the WWF European Alpine Programme's conservation activities in the Alps. </p>
+    <a href = "https://wwf.panda.org/knowledge_hub/where_we_work/alps/ealp2/#:~:text=International%20cooperation%20across%20the%20Alps%20is%20key%20to%20saving%20Alpine%20nature.&text=By%20adopting%20the%20ecoregional%20approach,the%20Convention%20on%20Biological%20Diversity." class="links">European Alpine Programme</a>	
+  </article>
+
+</section>
+
+<section>
+
+  <aside>
+    <h1>University of Zurich</h1>
+	<p>May 2012 - Aug 2012</p>	
+  </aside>
+  
+  <article> 
+    <h1>Scientific Assistant</h1>
+    <p>A short employment opportunity following the completion of my MSc thesis to continue conducting research on the genetic diversity of a rare plant species in the Canary Islands. </p>
+    <a href = "https://www.systbot.uzh.ch/en.html" class="links">University of Zurich</a>	
+  </article>
+
+</section>
+
+<section>
+
+  <aside>
+    <h1>University of Guelph</h1>
+	<p> Apr 2007 - Sep 2008</p>	
+  </aside>
+  
+  <article> 
+    <h1>Herbarium Technician</h1>
+    <p>Conducted vegetation surveys in Northern Ontario for a study on the effects of forest management on biodiversity. Collected leaf material from a tree species in Ecuador to help characterise genetic diversity within and between populations. </p>
+    <a href = "https://biodiversity.uoguelph.ca/collections/herbarium" class="links">University of Guelph</a>	
+  </article>
+  
+</section>
+
+</body>
+
