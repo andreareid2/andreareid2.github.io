@@ -45,7 +45,7 @@ p.center {text-align: center;
 
 ul {list-style-type: none;
 	margin: 0;
-	padding: 40;
+	padding: 40px;
 	overflow: hidden;
 	background-color: #333333;
 	opacity: 0.75;
