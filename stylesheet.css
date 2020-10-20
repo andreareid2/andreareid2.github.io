@@ -63,7 +63,8 @@ img.cover {display: block;
 
 /*source: circle image from https://www.w3schools.com/howto/howto_css_rounded_images.asp*/
 
-img.circle {border-radius: 50%;
+img.circle {display: block;
+	border-radius: 50%;
 	max-width:25%;
 	margin-top:0px;
 	margin-bottom:30px;
