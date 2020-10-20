@@ -200,7 +200,7 @@ body.gallery {
   padding: 0 4px;
 }
 
-.column img {
+.column img.gallery {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
