@@ -1,0 +1,230 @@
+
+/* Stylesheet for webpage */
+
+body {font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {text-align: left;
+	background-color: #666;
+	opacity: 0.75;
+	padding: 30px;
+	font-size: 2.5em;
+	color: white;
+	margin: 0;
+}
+
+h2 {text-align: center;
+	color: #666;
+	font-size: 2em;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+/* Source of inspiration for margin width http://www.pascalvangemert.nl/#/profile */
+
+p {text-align: center;
+	color: #666;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Source for navigation bar using list adapted from https://www.w3schools.com/css/css_navbar.asp and  https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu*/
+
+ul {list-style-type: none;
+	margin: 0;
+	padding: 40;
+	overflow: hidden;
+	background-color: #333333;
+	opacity: 0.75;
+}
+
+li {float: left;
+}
+
+li a {display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+li a:hover {background-color: #111111;
+}
+
+
+/*source: responsive image adapted from https://www.w3schools.com/css/css3_images.asp*/
+
+img.cover {display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+}
+
+/*source: circle image from https://www.w3schools.com/howto/howto_css_rounded_images.asp*/
+
+img.circle {border-radius: 50%;
+	max-width:25%;
+	margin-top:0px;
+	margin-bottom:30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* Styles for experience.html */
+
+/* Source of box layout from https://www.w3schools.com/html/html_layout.asp*/
+
+/* Source of @media rule https://www.w3schools.com/cssref/css3_pr_mediaquery.asp */
+
+@media only screen and (min-width: 1100px) {
+* {box-sizing: border-box;
+}
+
+img.experience	{display: block;
+	float: left;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;	
+	width: 255px;
+	height: 276px;
+}
+
+aside {float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	width: 30%;
+}
+
+article {float: left;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	width: 70%;
+}
+
+section {margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+	margin-right: 100px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+}
+
+section:after {content: "";
+  display: table;
+  clear: both;
+}
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+img.experience {display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 255px;
+	height: 276px;
+}
+
+aside {padding-top: 0px;
+	text-align: center;
+}
+
+article {padding-top: 0px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+section {margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-style: solid;
+	border-bottom-color: #666;
+}
+
+section:after {content: "";
+  	display: table;
+  	clear: both;
+}
+
+}
+
+a.links {text-decoration: none;
+	color: rgba(255, 99, 100, 0.5);
+}
+
+body {font-family: Arial, Helvetica, sans-serif;
+	color: #666;
+	background-color:none;
+}
+
+.header {background-color: #111111;
+	opacity: 0.5;
+	padding: 5px;
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+}
+
+
+/* Stylesheet for gallery.html */
+
+/*Source of responsive gallery from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp*/
+
+* {
+  box-sizing: border-box;
+}
+
+body.gallery {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column {
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
+  padding: 4px;
+}
+
+
+/* Responsive layout - stacks the two columns; source from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp*/
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+p.copyright {text-align: center;
+  font-size: 10px;
+  color: #666;
+}
