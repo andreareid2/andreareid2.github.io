@@ -1,6 +1,8 @@
 
 /* Stylesheet for webpage */
 
+/* Source of inspiration for layout http://www.pascalvangemert.nl/#/profile */
+
 body {font-family: Arial, Helvetica, sans-serif;
 	color: #666;
 }
@@ -20,8 +22,6 @@ body {font-family: Arial, Helvetica, sans-serif;
 	margin-top: 40px;
 	margin-bottom: 30px;
 }
-
-/* Source of inspiration for margin width http://www.pascalvangemert.nl/#/profile */
 
 p {text-align: center;
 	color: #666;
@@ -71,10 +71,6 @@ img.circle {display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
-
-/* Styles for experience.html */
 
 /* Source of box layout from https://www.w3schools.com/html/html_layout.asp*/
 
@@ -162,16 +158,8 @@ a.links {text-decoration: none;
 	color: rgba(255, 99, 100, 0.5);
 }
 
-
-
-
-/* Stylesheet for gallery.html */
-
 /*Source of responsive gallery from https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp*/
 
-* {
-  box-sizing: border-box;
-}
 
 body.gallery {
   margin: 0;
