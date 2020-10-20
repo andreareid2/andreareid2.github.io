@@ -5,7 +5,7 @@ body {font-family: Arial, Helvetica, sans-serif;
 	color: #666;
 }
 
-h1 {text-align: left;
+.header {text-align: left;
 	background-color: #666;
 	opacity: 0.75;
 	padding: 30px;
@@ -14,7 +14,7 @@ h1 {text-align: left;
 	margin: 0;
 }
 
-h2 {text-align: center;
+.subhead {text-align: center;
 	color: #666;
 	font-size: 2em;
 	margin-top: 40px;
@@ -23,7 +23,7 @@ h2 {text-align: center;
 
 /* Source of inspiration for margin width http://www.pascalvangemert.nl/#/profile */
 
-p.about {text-align: center;
+p {text-align: center;
 	color: #666;
 	margin-left: auto;
 	margin-right: auto;
@@ -159,11 +159,6 @@ section:after {content: "";
 
 a.links {text-decoration: none;
 	color: rgba(255, 99, 100, 0.5);
-}
-
-body {font-family: Arial, Helvetica, sans-serif;
-	color: #666;
-	background-color:none;
 }
 
 .header {background-color: #111111;
